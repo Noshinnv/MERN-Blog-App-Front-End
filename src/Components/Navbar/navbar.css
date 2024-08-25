@@ -1,0 +1,24 @@
+body {
+    margin-top: 56px; /* Adjust this value to the height of your navbar */
+}
+
+.navbar {
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: 0.25rem 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffcccc !important;
+}
